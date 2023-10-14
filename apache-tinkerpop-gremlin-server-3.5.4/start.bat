@@ -1,0 +1,1 @@
+bin\gremlin-server.bat conf\gremlin-server-default.yaml
