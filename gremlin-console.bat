@@ -7,7 +7,6 @@ echo :remote connect tinkerpop.server %GREMLIN_SERVER_HOST%:%GREMLIN_SERVER_PORT
 
 REM Create the g instance in Gremlin Console
 echo :> graph = graph.traversal() >> connection.groovy
-echo "dan"
 REM Start Gremlin Console and execute the connection script 
 cd apache-tinkerpop-gremlin-console-3.5.4\bin
 call gremlin.bat -i connection.groovy
